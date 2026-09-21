@@ -19,7 +19,18 @@ ul {
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 2px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 6px;
 }
